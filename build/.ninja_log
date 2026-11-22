@@ -1,0 +1,15 @@
+# ninja log v7
+1	237	1795282783277802938	CMakeFiles/gemelo.dir/src/main.cpp.o	f9e0f3ef0cabdd36
+1	216	1795283011840144122	CMakeFiles/gemelo.dir/src/core/Aplicacion.cpp.o	4f6ec2515ec6254f
+216	273	1795283012055143398	gemelo	8a0c8e5ac951b0e
+2	213	1795283231280014015	CMakeFiles/proyecto.dir/src/main.cpp.o	571f7b057d4c509d
+3	230	1795283231281014023	CMakeFiles/proyecto.dir/src/core/Aplicacion.cpp.o	c2eb9d25834d5e0b
+230	286	1795283231508015845	proyecto	943e1e34b6947fd0
+3	291	1795286527167605144	CMakeFiles/gemelo.dir/src/camaras/CamaraLibre.cpp.o	78ac058cc7c29364
+3	434	1795286527167466767	CMakeFiles/gemelo.dir/src/camaras/Camara.cpp.o	896c1796c46fc237
+3	513	1795286527167774285	CMakeFiles/gemelo.dir/src/objetos/Suelo.cpp.o	3b2e32e6442ffe6e
+1	514	1795286527165967771	CMakeFiles/gemelo.dir/src/main.cpp.o	f9e0f3ef0cabdd36
+3	516	1795286527167315892	CMakeFiles/gemelo.dir/src/render/Malla.cpp.o	426ca9e46ae90169
+2	549	1795286527167057660	CMakeFiles/gemelo.dir/src/render/Shader.cpp.o	2df11efc1bf9a539
+2	550	1795286527166758735	CMakeFiles/gemelo.dir/src/core/Aplicacion.cpp.o	4f6ec2515ec6254f
+550	617	1795286527714575844	gemelo	d755a7dff58f3920
