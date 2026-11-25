@@ -4,7 +4,7 @@
 
 int main() {
     try {
-        Aplicacion app(1280, 720, "Proyecto - U3");
+        Aplicacion app(1280, 720, "Gemelo Digital - Proyecto U3");
         app.ejecutar();
     } catch (const std::exception& e) {
         std::cerr << "Error fatal: " << e.what() << std::endl;
