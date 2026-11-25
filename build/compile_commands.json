@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build",
+  "command": "/usr/bin/g++ -I\"/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/src\" -g -std=gnu++17 -o CMakeFiles/gemelo.dir/src/main.cpp.o -c \"/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/src/main.cpp\"",
+  "file": "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/src/main.cpp",
+  "output": "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build/CMakeFiles/gemelo.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build",
+  "command": "/usr/bin/g++ -I\"/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/src\" -g -std=gnu++17 -o CMakeFiles/gemelo.dir/src/core/Aplicacion.cpp.o -c \"/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/src/core/Aplicacion.cpp\"",
+  "file": "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/src/core/Aplicacion.cpp",
+  "output": "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build/CMakeFiles/gemelo.dir/src/core/Aplicacion.cpp.o"
+},
+{
+  "directory": "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build",
+  "command": "/usr/bin/g++ -I\"/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/src\" -g -std=gnu++17 -o CMakeFiles/gemelo.dir/src/render/Shader.cpp.o -c \"/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/src/render/Shader.cpp\"",
+  "file": "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/src/render/Shader.cpp",
+  "output": "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build/CMakeFiles/gemelo.dir/src/render/Shader.cpp.o"
+},
+{
+  "directory": "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build",
+  "command": "/usr/bin/g++ -I\"/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/src\" -g -std=gnu++17 -o CMakeFiles/gemelo.dir/src/render/Malla.cpp.o -c \"/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/src/render/Malla.cpp\"",
+  "file": "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/src/render/Malla.cpp",
+  "output": "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build/CMakeFiles/gemelo.dir/src/render/Malla.cpp.o"
+},
+{
+  "directory": "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build",
+  "command": "/usr/bin/g++ -I\"/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/src\" -g -std=gnu++17 -o CMakeFiles/gemelo.dir/src/camaras/Camara.cpp.o -c \"/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/src/camaras/Camara.cpp\"",
+  "file": "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/src/camaras/Camara.cpp",
+  "output": "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build/CMakeFiles/gemelo.dir/src/camaras/Camara.cpp.o"
+},
+{
+  "directory": "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build",
+  "command": "/usr/bin/g++ -I\"/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/src\" -g -std=gnu++17 -o CMakeFiles/gemelo.dir/src/camaras/CamaraLibre.cpp.o -c \"/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/src/camaras/CamaraLibre.cpp\"",
+  "file": "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/src/camaras/CamaraLibre.cpp",
+  "output": "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build/CMakeFiles/gemelo.dir/src/camaras/CamaraLibre.cpp.o"
+},
+{
+  "directory": "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build",
+  "command": "/usr/bin/g++ -I\"/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/src\" -g -std=gnu++17 -o CMakeFiles/gemelo.dir/src/objetos/Suelo.cpp.o -c \"/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/src/objetos/Suelo.cpp\"",
+  "file": "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/src/objetos/Suelo.cpp",
+  "output": "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build/CMakeFiles/gemelo.dir/src/objetos/Suelo.cpp.o"
+}
+]

@@ -24,8 +24,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/bin/"
     searched_directories:
       - "/home/leandroalejandria/.local/bin/uname"
@@ -40,15 +38,13 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
   -
     kind: "message-v1"
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      The system is: Linux - 7.3.3-300.fc45.x86_64 - x86_64
+      The system is: Linux - 7.3.4-300.fc45.x86_64 - x86_64
   -
     kind: "find-v1"
     backtrace:
@@ -74,8 +70,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
     searched_directories:
       - "/home/leandroalejandria/.local/bin/ninja-build"
       - "/home/leandroalejandria/.local/bin/ninja"
@@ -95,58 +89,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
-      - "CMakeLists.txt:2 (project)"
-    mode: "program"
-    variable: "CMAKE_CXX_COMPILER"
-    description: "CXX compiler"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "c++"
-      - "CC"
-      - "g++"
-      - "aCC"
-      - "cl"
-      - "bcc"
-      - "xlC"
-      - "icpx"
-      - "icx"
-      - "clang++"
-    candidate_directories:
-      - "/home/leandroalejandria/.local/bin/"
-      - "/home/leandroalejandria/bin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
-    searched_directories:
-      - "/home/leandroalejandria/.local/bin/c++"
-      - "/home/leandroalejandria/bin/c++"
-      - "/usr/local/bin/c++"
-    found: "/usr/bin/c++"
-    search_context:
-      ENV{PATH}:
-        - "/home/leandroalejandria/.local/bin"
-        - "/home/leandroalejandria/.local/bin"
-        - "/home/leandroalejandria/.local/bin"
-        - "/home/leandroalejandria/bin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -180,8 +122,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
   -
     kind: "message-v1"
     backtrace:
@@ -191,7 +131,7 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /usr/bin/c++ 
+      Compiler: /usr/bin/g++ 
       Build flags: 
       Id flags:  
       
@@ -228,8 +168,6 @@ events:
       - "/home/leandroalejandria/.local/bin/"
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
@@ -239,8 +177,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -265,8 +201,6 @@ events:
       - "/home/leandroalejandria/.local/bin/"
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
@@ -276,8 +210,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -302,8 +234,6 @@ events:
       - "/home/leandroalejandria/.local/bin/"
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
@@ -313,8 +243,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -339,8 +267,6 @@ events:
       - "/home/leandroalejandria/.local/bin/"
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
@@ -350,8 +276,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -376,8 +300,6 @@ events:
       - "/home/leandroalejandria/.local/bin/"
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
@@ -387,8 +309,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -413,8 +333,6 @@ events:
       - "/home/leandroalejandria/.local/bin/"
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
@@ -424,8 +342,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -450,8 +366,6 @@ events:
       - "/home/leandroalejandria/.local/bin/"
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
     found: "/usr/bin/objcopy"
     search_context:
       ENV{PATH}:
@@ -461,8 +375,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -487,8 +399,6 @@ events:
       - "/home/leandroalejandria/.local/bin/"
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
     found: "/usr/bin/readelf"
     search_context:
       ENV{PATH}:
@@ -498,8 +408,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -524,15 +432,11 @@ events:
       - "/home/leandroalejandria/.local/bin/"
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
     searched_directories:
       - "/usr/bin/dlltool"
       - "/home/leandroalejandria/.local/bin/dlltool"
       - "/home/leandroalejandria/bin/dlltool"
       - "/usr/local/bin/dlltool"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
-      - "/usr/share/code/bin/copilot-shim/dlltool"
     found: false
     search_context:
       ENV{PATH}:
@@ -542,8 +446,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -568,8 +470,6 @@ events:
       - "/home/leandroalejandria/.local/bin/"
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
     found: "/usr/bin/addr2line"
     search_context:
       ENV{PATH}:
@@ -579,8 +479,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -605,15 +503,11 @@ events:
       - "/home/leandroalejandria/.local/bin/"
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
     searched_directories:
       - "/usr/bin/tapi"
       - "/home/leandroalejandria/.local/bin/tapi"
       - "/home/leandroalejandria/bin/tapi"
       - "/usr/local/bin/tapi"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
-      - "/usr/share/code/bin/copilot-shim/tapi"
     found: false
     search_context:
       ENV{PATH}:
@@ -623,8 +517,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -652,27 +544,19 @@ events:
       - "/home/leandroalejandria/.local/bin/"
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
     searched_directories:
       - "/usr/bin/gcc-ar-16.2"
       - "/home/leandroalejandria/.local/bin/gcc-ar-16.2"
       - "/home/leandroalejandria/bin/gcc-ar-16.2"
       - "/usr/local/bin/gcc-ar-16.2"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16.2"
-      - "/usr/share/code/bin/copilot-shim/gcc-ar-16.2"
       - "/usr/bin/gcc-ar-16"
       - "/home/leandroalejandria/.local/bin/gcc-ar-16"
       - "/home/leandroalejandria/bin/gcc-ar-16"
       - "/usr/local/bin/gcc-ar-16"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16"
-      - "/usr/share/code/bin/copilot-shim/gcc-ar-16"
       - "/usr/bin/gcc-ar16"
       - "/home/leandroalejandria/.local/bin/gcc-ar16"
       - "/home/leandroalejandria/bin/gcc-ar16"
       - "/usr/local/bin/gcc-ar16"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar16"
-      - "/usr/share/code/bin/copilot-shim/gcc-ar16"
     found: "/usr/bin/gcc-ar"
     search_context:
       ENV{PATH}:
@@ -682,8 +566,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
   -
     kind: "find-v1"
     backtrace:
@@ -711,27 +593,19 @@ events:
       - "/home/leandroalejandria/.local/bin/"
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
     searched_directories:
       - "/usr/bin/gcc-ranlib-16.2"
       - "/home/leandroalejandria/.local/bin/gcc-ranlib-16.2"
       - "/home/leandroalejandria/bin/gcc-ranlib-16.2"
       - "/usr/local/bin/gcc-ranlib-16.2"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16.2"
-      - "/usr/share/code/bin/copilot-shim/gcc-ranlib-16.2"
       - "/usr/bin/gcc-ranlib-16"
       - "/home/leandroalejandria/.local/bin/gcc-ranlib-16"
       - "/home/leandroalejandria/bin/gcc-ranlib-16"
       - "/usr/local/bin/gcc-ranlib-16"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16"
-      - "/usr/share/code/bin/copilot-shim/gcc-ranlib-16"
       - "/usr/bin/gcc-ranlib16"
       - "/home/leandroalejandria/.local/bin/gcc-ranlib16"
       - "/home/leandroalejandria/bin/gcc-ranlib16"
       - "/usr/local/bin/gcc-ranlib16"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib16"
-      - "/usr/share/code/bin/copilot-shim/gcc-ranlib16"
     found: "/usr/bin/gcc-ranlib"
     search_context:
       ENV{PATH}:
@@ -741,8 +615,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -752,8 +624,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build/CMakeFiles/CMakeScratch/TryCompile-U0yHEu"
-      binary: "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build/CMakeFiles/CMakeScratch/TryCompile-U0yHEu"
+      source: "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build/CMakeFiles/CMakeScratch/TryCompile-sAPwtM"
+      binary: "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build/CMakeFiles/CMakeScratch/TryCompile-sAPwtM"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -764,12 +636,12 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build/CMakeFiles/CMakeScratch/TryCompile-U0yHEu'
+        Change Dir: '/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build/CMakeFiles/CMakeScratch/TryCompile-sAPwtM'
         
-        Run Build Command(s): /usr/bin/ninja-build -v cmTC_35eb8
-        [1/2] /usr/bin/c++   -v -o CMakeFiles/cmTC_35eb8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/ninja-build -v cmTC_d7217
+        [1/2] /usr/bin/g++   -v -o CMakeFiles/cmTC_d7217.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
-        COLLECT_GCC=/usr/bin/c++
+        COLLECT_GCC=/usr/bin/g++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
         OFFLOAD_TARGET_DEFAULT=1
         Target: x86_64-redhat-linux
@@ -777,8 +649,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.2.1 20261029 (Red Hat 16.2.1-3) (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_35eb8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_35eb8.dir/'
-         /usr/libexec/gcc/x86_64-redhat-linux/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_35eb8.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -mtls-dialect=gnu2 -version -o /tmp/ccMJvqme.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7217.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_d7217.dir/'
+         /usr/libexec/gcc/x86_64-redhat-linux/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d7217.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -mtls-dialect=gnu2 -version -o /tmp/ccaBudAf.s
         GNU C++20 (GCC) version 16.2.1 20261029 (Red Hat 16.2.1-3) (x86_64-redhat-linux)
         	compiled by GNU C version 16.2.1 20261029 (Red Hat 16.2.1-3), GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.24-GMP
         
@@ -795,15 +667,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: c288b44cad67f1d4dc6ec5eb0626ea54
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_35eb8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_35eb8.dir/'
-         as -v --64 -o CMakeFiles/cmTC_35eb8.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccMJvqme.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7217.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_d7217.dir/'
+         as -v --64 -o CMakeFiles/cmTC_d7217.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccaBudAf.s
         GNU assembler version 2.47 (x86_64-redhat-linux) using BFD version version 2.47.20260726
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_35eb8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_35eb8.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_35eb8.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_35eb8   && :
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7217.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_d7217.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /usr/bin/g++  -v -Wl,-v CMakeFiles/cmTC_d7217.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d7217   && :
         Using built-in specs.
-        COLLECT_GCC=/usr/bin/c++
+        COLLECT_GCC=/usr/bin/g++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
         OFFLOAD_TARGET_DEFAULT=1
@@ -814,12 +686,12 @@ events:
         gcc version 16.2.1 20261029 (Red Hat 16.2.1-3) (GCC) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_35eb8' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_35eb8.'
-         /usr/libexec/gcc/x86_64-redhat-linux/16/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYLFjmX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_35eb8 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_35eb8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d7217' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_d7217.'
+         /usr/libexec/gcc/x86_64-redhat-linux/16/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfwCN7B.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d7217 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d7217.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o
         collect2 version 16.2.1 20261029 (Red Hat 16.2.1-3)
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYLFjmX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_35eb8 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_35eb8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfwCN7B.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d7217 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d7217.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o
         GNU ld version 2.47.20260726
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_35eb8' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_35eb8.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d7217' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_d7217.'
         
       exitCode: 0
   -
@@ -858,12 +730,12 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build/CMakeFiles/CMakeScratch/TryCompile-U0yHEu']
+        ignore line: [Change Dir: '/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build/CMakeFiles/CMakeScratch/TryCompile-sAPwtM']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/ninja-build -v cmTC_35eb8]
-        ignore line: [[1/2] /usr/bin/c++   -v -o CMakeFiles/cmTC_35eb8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/ninja-build -v cmTC_d7217]
+        ignore line: [[1/2] /usr/bin/g++   -v -o CMakeFiles/cmTC_d7217.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_GCC=/usr/bin/g++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
         ignore line: [OFFLOAD_TARGET_DEFAULT=1]
         ignore line: [Target: x86_64-redhat-linux]
@@ -871,8 +743,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.2.1 20261029 (Red Hat 16.2.1-3) (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_35eb8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_35eb8.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_35eb8.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -mtls-dialect=gnu2 -version -o /tmp/ccMJvqme.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7217.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_d7217.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d7217.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -mtls-dialect=gnu2 -version -o /tmp/ccaBudAf.s]
         ignore line: [GNU C++20 (GCC) version 16.2.1 20261029 (Red Hat 16.2.1-3) (x86_64-redhat-linux)]
         ignore line: [	compiled by GNU C version 16.2.1 20261029 (Red Hat 16.2.1-3)  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -889,15 +761,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: c288b44cad67f1d4dc6ec5eb0626ea54]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_35eb8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_35eb8.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_35eb8.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccMJvqme.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7217.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_d7217.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_d7217.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccaBudAf.s]
         ignore line: [GNU assembler version 2.47 (x86_64-redhat-linux) using BFD version version 2.47.20260726]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_35eb8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_35eb8.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /usr/bin/c++  -v -Wl -v CMakeFiles/cmTC_35eb8.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_35eb8   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7217.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_d7217.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /usr/bin/g++  -v -Wl -v CMakeFiles/cmTC_d7217.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d7217   && :]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_GCC=/usr/bin/g++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
         ignore line: [OFFLOAD_TARGET_DEFAULT=1]
@@ -908,13 +780,13 @@ events:
         ignore line: [gcc version 16.2.1 20261029 (Red Hat 16.2.1-3) (GCC) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_35eb8' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_35eb8.']
-        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/16/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYLFjmX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_35eb8 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_35eb8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d7217' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_d7217.']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/16/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfwCN7B.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d7217 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d7217.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
           arg [/usr/libexec/gcc/x86_64-redhat-linux/16/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccYLFjmX.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccfwCN7B.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
@@ -930,7 +802,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_35eb8] ==> ignore
+          arg [cmTC_d7217] ==> ignore
           arg [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o]
@@ -942,7 +814,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_35eb8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_d7217.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -954,7 +826,7 @@ events:
           arg [/usr/lib/gcc/x86_64-redhat-linux/16/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/crtend.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
         ignore line: [collect2 version 16.2.1 20261029 (Red Hat 16.2.1-3)]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYLFjmX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_35eb8 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_35eb8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfwCN7B.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d7217 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d7217.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
         collapse obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
@@ -1005,8 +877,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/include/"
       - "/usr/local/"
       - "/usr/include/"
@@ -1027,8 +897,6 @@ events:
       - "/home/leandroalejandria/bin/GL/gl.h"
       - "/usr/local/bin/GL/gl.h"
       - "/usr/bin/GL/gl.h"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/GL/gl.h"
-      - "/usr/share/code/bin/copilot-shim/GL/gl.h"
       - "/usr/local/include/GL/gl.h"
       - "/usr/local/GL/gl.h"
     found: "/usr/include/"
@@ -1040,8 +908,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -1077,8 +943,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/include/"
       - "/usr/local/"
       - "/usr/include/"
@@ -1096,8 +960,6 @@ events:
       - "/home/leandroalejandria/bin/GL/glx.h"
       - "/usr/local/bin/GL/glx.h"
       - "/usr/bin/GL/glx.h"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/GL/glx.h"
-      - "/usr/share/code/bin/copilot-shim/GL/glx.h"
       - "/usr/local/include/GL/glx.h"
       - "/usr/local/GL/glx.h"
     found: "/usr/include/"
@@ -1109,8 +971,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -1146,8 +1006,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/include/"
       - "/usr/local/"
       - "/usr/include/"
@@ -1165,8 +1023,6 @@ events:
       - "/home/leandroalejandria/bin/EGL/egl.h"
       - "/usr/local/bin/EGL/egl.h"
       - "/usr/bin/EGL/egl.h"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/EGL/egl.h"
-      - "/usr/share/code/bin/copilot-shim/EGL/egl.h"
       - "/usr/local/include/EGL/egl.h"
       - "/usr/local/EGL/egl.h"
     found: "/usr/include/"
@@ -1178,8 +1034,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -1215,8 +1069,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/include/"
       - "/usr/local/"
       - "/usr/include/"
@@ -1234,8 +1086,6 @@ events:
       - "/home/leandroalejandria/bin/GLES2/gl2.h"
       - "/usr/local/bin/GLES2/gl2.h"
       - "/usr/bin/GLES2/gl2.h"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/GLES2/gl2.h"
-      - "/usr/share/code/bin/copilot-shim/GLES2/gl2.h"
       - "/usr/local/include/GLES2/gl2.h"
       - "/usr/local/GLES2/gl2.h"
     found: "/usr/include/"
@@ -1247,8 +1097,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -1284,8 +1132,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/include/"
       - "/usr/local/"
       - "/usr/include/"
@@ -1303,8 +1149,6 @@ events:
       - "/home/leandroalejandria/bin/GLES3/gl3.h"
       - "/usr/local/bin/GLES3/gl3.h"
       - "/usr/bin/GLES3/gl3.h"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/GLES3/gl3.h"
-      - "/usr/share/code/bin/copilot-shim/GLES3/gl3.h"
       - "/usr/local/include/GLES3/gl3.h"
       - "/usr/local/GLES3/gl3.h"
     found: "/usr/include/"
@@ -1316,8 +1160,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -1353,8 +1195,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/include/"
       - "/usr/local/"
       - "/usr/include/"
@@ -1375,8 +1215,6 @@ events:
       - "/home/leandroalejandria/bin/GL/xmesa.h"
       - "/usr/local/bin/GL/xmesa.h"
       - "/usr/bin/GL/xmesa.h"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/GL/xmesa.h"
-      - "/usr/share/code/bin/copilot-shim/GL/xmesa.h"
       - "/usr/local/include/GL/xmesa.h"
       - "/usr/local/GL/xmesa.h"
       - "/usr/include/GL/xmesa.h"
@@ -1401,8 +1239,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -1438,8 +1274,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/include/"
       - "/usr/local/"
       - "/usr/include/"
@@ -1457,8 +1291,6 @@ events:
       - "/home/leandroalejandria/bin/GL/glu.h"
       - "/usr/local/bin/GL/glu.h"
       - "/usr/bin/GL/glu.h"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/GL/glu.h"
-      - "/usr/share/code/bin/copilot-shim/GL/glu.h"
       - "/usr/local/include/GL/glu.h"
       - "/usr/local/GL/glu.h"
     found: "/usr/include/"
@@ -1470,8 +1302,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -1507,8 +1337,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/lib64/"
       - "/usr/local/lib/"
       - "/usr/local/"
@@ -1524,8 +1352,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/lib64/"
       - "/usr/local/lib/"
       - "/usr/local/"
@@ -1538,8 +1364,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -1575,8 +1399,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/lib64/"
       - "/usr/local/lib/"
       - "/usr/local/"
@@ -1592,8 +1414,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/lib64/"
       - "/usr/local/lib/"
       - "/usr/local/"
@@ -1606,8 +1426,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -1643,8 +1461,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/lib64/"
       - "/usr/local/lib/"
       - "/usr/local/"
@@ -1660,8 +1476,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/lib64/"
       - "/usr/local/lib/"
       - "/usr/local/"
@@ -1674,8 +1488,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -1711,8 +1523,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/lib64/"
       - "/usr/local/lib/"
       - "/usr/local/"
@@ -1728,8 +1538,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/lib64/"
       - "/usr/local/lib/"
       - "/usr/local/"
@@ -1742,8 +1550,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -1780,8 +1586,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/lib64/"
       - "/usr/local/lib/"
       - "/usr/local/"
@@ -1797,8 +1601,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/lib64/"
       - "/usr/local/lib/"
       - "/usr/local/"
@@ -1813,8 +1615,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/lib64/"
       - "/usr/local/lib/"
       - "/usr/local/"
@@ -1827,8 +1627,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -1865,8 +1663,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/lib64/"
       - "/usr/local/lib/"
       - "/usr/local/"
@@ -1882,8 +1678,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/lib64/"
       - "/usr/local/lib/"
       - "/usr/local/"
@@ -1896,8 +1690,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -2113,70 +1905,6 @@ events:
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/GLEWConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/glew-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib64/cps/GLEW.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib64/cps/glew.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/cps/GLEW.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/cps/glew.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/share/cps/GLEW.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/share/cps/glew.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/share/code/bin/copilot-shim/GLEWConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/share/code/bin/copilot-shim/glew-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/usr/share/code/bin/copilot-shim/lib64/cps/GLEW.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/share/code/bin/copilot-shim/lib64/cps/glew.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/share/code/bin/copilot-shim/lib/cps/GLEW.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/share/code/bin/copilot-shim/lib/cps/glew.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/share/code/bin/copilot-shim/share/cps/GLEW.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "/usr/share/code/bin/copilot-shim/share/cps/glew.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
         path: "/GLEWConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -2249,8 +1977,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -2284,8 +2010,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/include/"
       - "/usr/local/"
       - "/usr/include/"
@@ -2303,8 +2027,6 @@ events:
       - "/home/leandroalejandria/bin/GL/glew.h"
       - "/usr/local/bin/GL/glew.h"
       - "/usr/bin/GL/glew.h"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/GL/glew.h"
-      - "/usr/share/code/bin/copilot-shim/GL/glew.h"
       - "/usr/local/include/GL/glew.h"
       - "/usr/local/GL/glew.h"
     found: "/usr/include/"
@@ -2316,8 +2038,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -2355,8 +2075,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/lib64/"
       - "/usr/local/lib/"
       - "/usr/local/lib64/"
@@ -2388,12 +2106,6 @@ events:
       - "/usr/bin/"
       - "/usr/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
-      - "/usr/share/code/bin/copilot-shim/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/lib64/"
       - "/usr/local/lib64/"
       - "/usr/local/lib64/"
@@ -2424,8 +2136,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -2463,8 +2173,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/lib64/"
       - "/usr/local/lib/"
       - "/usr/local/lib64/"
@@ -2496,12 +2204,6 @@ events:
       - "/usr/bin/"
       - "/usr/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
-      - "/usr/share/code/bin/copilot-shim/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/lib64/"
       - "/usr/local/lib64/"
       - "/usr/local/lib64/"
@@ -2565,8 +2267,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -2604,8 +2304,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/lib64/"
       - "/usr/local/lib/"
       - "/usr/local/lib64/"
@@ -2637,12 +2335,6 @@ events:
       - "/usr/bin/"
       - "/usr/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
-      - "/usr/share/code/bin/copilot-shim/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/lib64/"
       - "/usr/local/lib64/"
       - "/usr/local/lib64/"
@@ -2706,8 +2398,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -2745,8 +2435,6 @@ events:
       - "/home/leandroalejandria/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/lib64/"
       - "/usr/local/lib/"
       - "/usr/local/lib64/"
@@ -2778,12 +2466,6 @@ events:
       - "/usr/bin/"
       - "/usr/bin/"
       - "/usr/bin/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/usr/share/code/bin/copilot-shim/"
-      - "/usr/share/code/bin/copilot-shim/"
-      - "/usr/share/code/bin/copilot-shim/"
       - "/usr/local/lib64/"
       - "/usr/local/lib64/"
       - "/usr/local/lib64/"
@@ -2847,8 +2529,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -2875,8 +2555,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build/CMakeFiles/CMakeScratch/TryCompile-2tl4NR"
-      binary: "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build/CMakeFiles/CMakeScratch/TryCompile-2tl4NR"
+      source: "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build/CMakeFiles/CMakeScratch/TryCompile-w6jsrz"
+      binary: "/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build/CMakeFiles/CMakeScratch/TryCompile-w6jsrz"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2886,11 +2566,11 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build/CMakeFiles/CMakeScratch/TryCompile-2tl4NR'
+        Change Dir: '/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build/CMakeFiles/CMakeScratch/TryCompile-w6jsrz'
         
-        Run Build Command(s): /usr/bin/ninja-build -v cmTC_b7e45
-        [1/2] /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles/cmTC_b7e45.dir/src.cxx.o -c '/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build/CMakeFiles/CMakeScratch/TryCompile-2tl4NR/src.cxx'
-        [2/2] : && /usr/bin/c++   CMakeFiles/cmTC_b7e45.dir/src.cxx.o -o cmTC_b7e45   && :
+        Run Build Command(s): /usr/bin/ninja-build -v cmTC_49bbf
+        [1/2] /usr/bin/g++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles/cmTC_49bbf.dir/src.cxx.o -c '/home/leandroalejandria/Documentos/Universidad/Computacion Grafica/Unidad 3/ProyectoU3/build/CMakeFiles/CMakeScratch/TryCompile-w6jsrz/src.cxx'
+        [2/2] : && /usr/bin/g++   CMakeFiles/cmTC_49bbf.dir/src.cxx.o -o cmTC_49bbf   && :
         
       exitCode: 0
   -
@@ -3043,8 +2723,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -3055,10 +2733,6 @@ events:
         - "/usr/X11R6"
         - "/usr/pkg"
         - "/opt"
-...
-
----
-events:
   -
     kind: "find_package-v1"
     backtrace:
@@ -3209,8 +2883,6 @@ events:
         - "/home/leandroalejandria/bin"
         - "/usr/local/bin"
         - "/usr/bin"
-        - "/home/leandroalejandria/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/usr/share/code/bin/copilot-shim"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
